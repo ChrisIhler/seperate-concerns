@@ -1,0 +1,28 @@
+{
+  "name": "checkpoint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisIhler/seperate-concerns.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrisIhler/seperate-concerns/issues"
+  },
+  "homepage": "https://github.com/ChrisIhler/seperate-concerns#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "node-modules": "^1.0.1",
+    "nodemon": "^1.18.9",
+    "uuid": "^3.3.2"
+  }
+}
